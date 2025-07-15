@@ -1,0 +1,425 @@
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+    .error-content {
+        margin-top: 100px;
+    }
+}
+
+
+@media screen and (min-width: 1200px) and (max-width: 1440px) {
+    .col-ml-6 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .col-ml-12 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .col-ml-8 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 66.666667%;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+    .col-ml-4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+
+    /* error page */
+    .error-content {
+        margin-top: 100px;
+    }
+
+}
+
+/* Normal desktop :992px. */
+
+@media (min-width: 1200px) and (max-width: 1364px) {
+
+    /* sidebar */
+    .sidebar-menu {
+        width: 365px;
+    }
+    .nav-btn {
+        position: fixed;
+        z-index: 99;
+        left: 363px;
+        background: #303641;
+        padding: 14px;
+        top: 0;
+        margin: 0;
+    }
+    .nav-btn span {
+        background: #fffbfb;
+    }
+    .sbar_collapsed .sidebar-menu {
+        left: -90%;
+    }
+    .sbar_collapsed .nav-btn {
+        position: initial;
+        background: none;
+        padding: 0;
+        margin: 10px 30px 0 0;
+    }
+    .sbar_collapsed .nav-btn span {
+        background: #b3aaaa;
+    }
+    .sbar_collapsed .logo a span {
+        display: block;
+    }
+    .minisidebar.main-menu {
+        margin-right: 0;
+    }
+    /* main content */
+    .main-content-inner {
+        padding: 0 15px 50px;
+    }
+    .page-container,
+    .sbar_collapsed.page-container {
+        padding-left: 0;
+    }
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* dashboard one */
+    .mt-md-30 {
+        margin-top: 30px;
+    }
+    /* sidebar */
+    .sidebar-menu {
+        width: 306px;
+    }
+    .nav-btn {
+        position: fixed;
+        z-index: 99;
+        left: 304px;
+        background: #303641;
+        padding: 14px;
+        top: 0;
+        margin: 0;
+    }
+    .nav-btn span {
+        background: #fffbfb;
+    }
+    .sbar_collapsed .sidebar-menu {
+        left: -90%;
+    }
+    .sbar_collapsed .nav-btn {
+        position: initial;
+        background: none;
+        padding: 0;
+        margin: 10px 30px 0 0;
+    }
+    .sbar_collapsed .nav-btn span {
+        background: #b3aaaa;
+    }
+    .sbar_collapsed .logo a span {
+        display: block;
+    }
+    .minisidebar.main-menu {
+        margin-right: 0;
+    }
+    /* main content */
+    .main-content-inner {
+        padding: 0 15px 50px;
+    }
+    .page-container,
+    .sbar_collapsed.page-container {
+        padding-left: 0;
+    }
+
+    /* horizontal header dashboard */
+    .horizontal-menu ul li a {
+        padding: 10px 8px;
+    }
+    .seo-fact #seolinechart3,
+    .seo-fact #seolinechart4 {
+        max-width: 144px;
+    }
+}
+
+/* Normal desktop :991px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* dashboard one */
+    /* sidebar */
+    .sidebar-menu {
+        width: 306px;
+    }
+    .nav-btn {
+        position: fixed;
+        z-index: 99;
+        left: 304px;
+        background: #303641;
+        padding: 14px;
+        top: 0;
+        margin: 0;
+    }
+    .nav-btn span {
+        background: #fffbfb;
+    }
+    .sbar_collapsed .sidebar-menu {
+        left: -90%;
+    }
+    .sbar_collapsed .nav-btn {
+        position: initial;
+        background: none;
+        padding: 0;
+        margin: 10px 30px 0 0;
+    }
+    .sbar_collapsed .nav-btn span {
+        background: #b3aaaa;
+    }
+    .sbar_collapsed .logo a span {
+        display: block;
+    }
+    .minisidebar.main-menu {
+        margin-right: 0;
+    }
+    .sbar_collapsed .metismenu li a span,
+    .sbar_collapsed .metismenu li a:after,
+    .sbar_collapsed .metismenu .collapse.in {
+        display: inline-block;
+    }
+    /* main content */
+    .main-content-inner {
+        padding: 0 15px 50px;
+    }
+    .page-container,
+    .sbar_collapsed.page-container {
+        padding-left: 0;
+    }
+    /* main content */
+    .search-box input {
+        width: 278px;
+    }
+    .card-title {
+        font-size: 18px;
+    }
+
+    .input-form input {
+        height: 70px;
+        padding-left: 20px;
+    }
+ 
+    .input-form span {
+        height: 70px;
+        line-height: 70px;
+    }
+    /* icons */
+    .icon-container {
+        flex-basis: calc(100% * (1/3));
+    }
+
+ 
+    /* login page */
+    .ptb--100 {
+        padding: 90px 0;
+    }
+    /* horizontal header dashboard */
+    .header-bottom .search-box input {
+        max-width: 100%;
+    }
+}
+
+/* small mobile :320px. */
+
+@media (max-width: 767px) {
+    .ptb--100 {
+        padding: 90px 0;
+    }
+}
+
+/* Large Mobile :480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    /* dashboard one */
+    .mb-xs-30 {
+        margin-bottom: 30px;
+    }
+    .mt-sm-30 {
+        margin-top: 30px;
+    }
+    .mb-sm-40 {
+        margin-bottom: 40px;
+    }
+    /* sidebar */
+    .sidebar-menu {
+        width: 365px;
+    }
+    .nav-btn {
+        position: fixed;
+        z-index: 99;
+        left: 363px;
+        background: #303641;
+        padding: 14px;
+        top: 0;
+        margin: 0;
+    }
+    .nav-btn span {
+        background: #fffbfb;
+    }
+    .sbar_collapsed .sidebar-menu {
+        left: -90%;
+    }
+    .sbar_collapsed .nav-btn {
+        position: initial;
+        background: none;
+        padding: 0;
+        margin: 10px 30px 0 0;
+    }
+    .sbar_collapsed .nav-btn span {
+        background: #b3aaaa;
+    }
+    .sbar_collapsed .logo a span {
+        display: block;
+    }
+    .minisidebar.main-menu {
+        margin-right: 0;
+    }
+    /* main content */
+    .main-content-inner {
+        padding: 0 15px 35px;
+    }
+    .page-container,
+    .sbar_collapsed.page-container {
+        padding-left: 0;
+    }
+    /* main content */
+    .search-box input {
+        width: 278px;
+    }
+    .notification-area li {
+        margin-left: 21px;
+    }
+    .page-title {
+        font-size: 21px;
+    }
+    .input-form input {
+        height: 70px;
+        padding-left: 20px;
+    }
+
+    .input-form span {
+        height: 70px;
+        line-height: 70px;
+    }
+    /* icons */
+    .icon-container {
+        flex-basis: calc(100% * (1/2));
+    }
+
+
+    /* horizontal header dashboard */
+    .header-bottom .search-box input {
+        max-width: 100%;
+    }
+}
+
+/* small mobile :320px. */
+
+@media (min-width: 240px) and (max-width: 479px) {
+    /* sidebar */
+    .sidebar-menu {
+        width: calc(100% - 48px);
+    }
+    .nav-btn {
+        position: fixed;
+        z-index: 99;
+        right: 0;
+        background: #303641;
+        padding: 14px;
+        top: 0;
+        margin: 0;
+    }
+    .nav-btn span {
+        background: #fffbfb;
+    }
+    .sbar_collapsed .sidebar-menu {
+        left: -100%;
+    }
+    .sbar_collapsed .nav-btn {
+        position: initial;
+        background: none;
+        padding: 0;
+        margin: 10px 30px 0 0;
+    }
+    .sbar_collapsed .nav-btn span {
+        background: #b3aaaa;
+    }
+    .sbar_collapsed .logo a span {
+        display: block;
+    }
+    .minisidebar.main-menu {
+        margin-right: 0;
+    }
+    /* main content */
+    .main-content-inner {
+        padding: 0 15px 50px;
+    }
+    .page-container,
+    .sbar_collapsed.page-container {
+        padding-left: 0;
+    }
+    .card-body {
+        padding: 1.25rem;
+    }
+    /* hedaer */
+    .search-box input {
+        width: 223px;
+    }
+    .notification-area {
+        text-align: center;
+        margin: 30px 0 3px;
+        float: none;
+    }
+    .notification-area li {
+        margin: 0 15px;
+    }
+    .user-profile {
+        margin: 16px 0 10px 0;
+    }
+    .user-profile .dropdown-menu {
+        width: 100%;
+        right: 0px!important;
+    }
+    .nt-enveloper-box.notify-box {
+        width: 286px;
+        right: -101px!important;
+    }
+    .bell-notify-box.notify-box {
+        width: 286px;
+        right: -160px!important;
+    }
+    .page-title-area {
+        padding: 15px 30px 0;
+    }
+  
+    /* dropdown */
+    .btn {
+        padding: 11px 16px;
+    }
+   
+    /* typography */
+    blockquote {
+        padding: 20px 15px 20px 60px;
+    }
+    /* icons */
+    .icon-container {
+        flex-basis: 100%;
+    }
+
+    .login-form-head,
+    .login-form-body {
+        padding: 40px 20px;
+    }
+
+}
